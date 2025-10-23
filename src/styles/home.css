@@ -1,0 +1,46 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 80px); /* resta altura del navbar */
+  background: linear-gradient(135deg, #1a1a1a, #333);
+  color: white;
+  text-align: center;
+  padding: 0 20px;
+  width: 100%;
+}
+
+.home-container h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.home-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+  color: #ddd;
+}
+
+.btn-primary {
+  display: inline-block;
+  padding: 12px 30px;
+  background-color: #4cafef;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-primary:hover {
+  background-color: #1e88e5;
+  transform: translateY(-2px);
+}
+
+
+
+
